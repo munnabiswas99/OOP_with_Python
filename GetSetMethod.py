@@ -15,3 +15,9 @@ print(s1.name, s1._age)
 
 s1.set_id(5566)
 print(s1.get_id())
+
+class Munna(Student):
+    pass
+
+m1 = Munna('Munna', 22, 5261)
+print(m1._age)
